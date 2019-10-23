@@ -166,10 +166,13 @@ nav.fooddrink-nav li {
 	padding: 16px;
 	border: 0px solid black;
 }
+
+
 header {
 	display: grid;
 	grid-template-columns: 40% 60%;
 }
+
 
 nav.twocities-nav ul {
 	list-style-type: none;
@@ -261,139 +264,77 @@ nav.nature-nav li {
 
 .about-us {
 	display: grid;
-	grid-template-columns: 50% 50%
-	width: 80%
-	margin: 40px auto;
-
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
+	margin-top: 60px;
 }
-.about-us img, .about-us p .about-us h4{ 
-	display:inline-block;
-	float: right;
-	margin-left: 40px;
-}
-
-.box-a h3 {
-	float: right;
-}
-
-.about-us p { 
-	display:inline-block;
-	float: right;
-	margin-left: 40px;
-}
-
-.about-us p { width: 400px; }
-
-.sweethotel {
-	padding:80px;
-
-}
-.sweethotel img, .about-us p { 
-	display:inline-block;
-	float: left;
-	margin-right: 40px;
-}
-
-.sweethotel p { width: 200px; }
 
 .wrapper {
 	display: grid;
-
-	grid-gap: 5px;
+	grid-gap: 50px;
 	grid-template-columns: 50% 50%;
-
-}
-
-.box {
-
-	border-radius: 5px;
-	padding: 20px;
-	
-
-}
-
-.wrapper2 {
-	display: grid;
-
-	grid-gap: 5px;
-	grid-template-columns: 50% 50%;
-}
-
-.box {
-
-	border-radius: 5px;
-	padding: 20px;
+	margin-top: 40px;
 
 }
 
 
-.wrapper3 {
-	display: grid;
-
-	grid-gap: 5px;
-	grid-template-columns: 50% 50%;
-}
-
-.box {
-
-	border-radius: 5px;
-	padding: 20px;
-
-}
-
-	
+.box-a { margin-left: 80px; 
+	margin-right: 100px;}
 
 
-.subnav a {
-	display: inline-block;
-	color: white;
-	text-transform: uppercase;
-	font-size: 24px;
-	margin-top: 32px;
+	.box {
+
+		border-radius: 5px;
+		padding: 20px;
+
+	}
+
+
+	.subnav a {
+		display: inline-block;
+		color: white;
+		text-transform: uppercase;
+		font-size: 24px;
+		margin-top: 32px;
+	}
+
+
+	.subnav li {
+		text-align: center;	
+		background-repeat: no-repeat;
+		background-size:cover;
+		width: 500px;
+		height: 90px;
+		margin-bottom: 20px;
+
+
+	}
+
+	.subnav .accomodations {
+		background-image: url(../images/Mainaccomidationsbutton.png);
+
+	}
+
+	.subnav .fooddrink {
+		background-image: url(../images/Mainfooddrinkbutton.png);
+	}
+
+	.subnav .twocities {
+		background-image: url(../images/Mainwtocitiesbutton.png);
+	}
+
+	.subnav .nature {
+		background-image: url(../images/Mainnaturebutton.png);
+	}
 
 
 
-}
-
-.subnav li {
-	text-align: center;	
-	background-repeat: no-repeat;
-	background-size:cover;
-	width: 500px;
-	height: 90px;
-	margin-bottom: 20px;
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 
 
-}
 
-.subnav .accomodations {
-	background-image: url(../images/Mainaccomidationsbutton.png);
-	
-}
-
-.subnav .fooddrink {
-	background-image: url(../images/Mainfooddrinkbutton.png);
-}
-
-.subnav .twocities {
-	background-image: url(../images/Mainwtocitiesbutton.png);
-}
-
-.subnav .nature {
-	background-image: url(../images/Mainnaturebutton.png);
-}
-
-.column {
-	float: left;
-	width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.box-a{max-width: 400px}
-Resources
