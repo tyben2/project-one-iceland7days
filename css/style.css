@@ -233,7 +233,7 @@ nav.nature-nav li {
 }
 
 .home-bg{
-	background-image: url(../images/MainPageArrowmountain.png);
+	background-image: url(../images/mainpagearrowmountain.png);
 	background-size: cover;	
 	height: 100vh;
 }
@@ -312,20 +312,20 @@ nav.nature-nav li {
 	}
 
 	.subnav .accomodations {
-		background-image: url(../images/Mainaccomidationsbutton.png);
+		background-image: url(../images/mainaccomidationsbutton.png);
 
 	}
 
 	.subnav .fooddrink {
-		background-image: url(../images/Mainfooddrinkbutton.png);
+		background-image: url(../images/mainfooddrinkbutton.png);
 	}
 
 	.subnav .twocities {
-		background-image: url(../images/Mainwtocitiesbutton.png);
+		background-image: url(../images/mainwtocitiesbutton.png);
 	}
 
 	.subnav .nature {
-		background-image: url(../images/Mainnaturebutton.png);
+		background-image: url(../images/mainnaturebutton.png);
 	}
 
 
