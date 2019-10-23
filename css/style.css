@@ -11,6 +11,14 @@ body{
 	font-style: normal;
 }
 
+nav a {
+color: rgb(216,230,242)
+}
+
+nav a:hover {
+  color: #FF9633;
+}
+
 h1 { 
 	font-size: 75px;
 	color: rgb(216,230,242);
@@ -86,9 +94,6 @@ nav.main-nav ul {
 	min-height: 100px;
 	color: white;
 	background-color: rgb(64,112,153);
-
-	color: rgb(216,230,242);
-
 	min-width: 500px;
 
 	font-family: freight-sans-pro, sans-serif;
@@ -100,7 +105,6 @@ nav.main-nav li {
 	display: inline-block;
 	margin-right: 40px;
 	font-size: 20px;
-	color: rgb(216,230,242);
 	text-decoration: none;
 
 	margin-top:63px;
@@ -270,10 +274,38 @@ nav.nature-nav li {
 	margin-top: 60px;
 }
 
+.sweethotel {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
+	margin-top: 60px;
+}
+
+.reykjavik {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
+	margin-top: 60px;
+}
+
+.bluelagoon {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 12px;
+	grid-row-gap: 12px;
+	margin-top: 60px;
+}
+
+.twocitiespics{
+	margin-right: 60px;
+}
+
 .wrapper {
 	display: grid;
 	grid-gap: 50px;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 45% 65%;
 	margin-top: 40px;
 
 }
@@ -293,7 +325,7 @@ nav.nature-nav li {
 
 	.subnav a {
 		display: inline-block;
-		color: white;
+		color: rgb(216,230,242);
 		text-transform: uppercase;
 		font-size: 24px;
 		margin-top: 32px;
@@ -336,5 +368,8 @@ nav.nature-nav li {
 		clear: both;
 	}
 
-
+.bottom-left {
+  position: absolute;
+  bottom: -140px;
+  left: 16px;
 
