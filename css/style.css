@@ -12,11 +12,11 @@ body{
 }
 
 nav a {
-color: rgb(216,230,242)
+	color: rgb(216,230,242)
 }
 
 nav a:hover {
-  color: #FF9633;
+	color: #FF9633;
 }
 
 h1 { 
@@ -368,19 +368,27 @@ nav.nature-nav li {
 		clear: both;
 	}
 
-.bottom-left {
-  position: absolute;
-  bottom: -140px;
-  left: 16px;
-}
+	.bottom-left {
+		position: absolute;
+		bottom: -140px;
+		left: 16px;
+	}
 
-.footer {
-  position: bottom;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(64,112,153);
-  color: white;
-  text-align: center;
-}
+	.footer {
+		position: bottom;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: rgb(64,112,153);
+		color: white;
+		text-align: center;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.wrapper {
+			grid-template-columns: 100%;
+		}
+
+		
+	}
 
