@@ -372,4 +372,15 @@ nav.nature-nav li {
   position: absolute;
   bottom: -140px;
   left: 16px;
+}
+
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(64,112,153);
+  color: white;
+  text-align: center;
+}
 
